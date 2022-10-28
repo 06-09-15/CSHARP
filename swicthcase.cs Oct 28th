@@ -1,0 +1,35 @@
+using System;
+
+class Program {
+  
+  
+  public static void Main (string[] args) 
+  {
+    int result1;
+    int a = 5, b = 6, c = 4;
+    result1 = --a * b - ++c;
+             //   5 * 6 -   4
+            //  4 * 6     -   5
+            //  24 - 5 = 19
+
+    Console.WriteLine("result is {0}",result1);
+
+    bool result2;
+    result2 = b >= c + a;
+    Console.WriteLine(result2);
+    // 6>= 5 + 4
+   a= 5 b=6 c=4
+     Console.WriteLine(a++ - b / c++);
+    Console.WriteLine(a++ +  ++b * c);
+     Console.WriteLine(c <= a%c);
+     //unary operators   -7 , -6 , 7
+   // 7+6 // additive
+    Console.WriteLine(result2);
+    
+    
+  }
+}
+
+                 
+    
+  
