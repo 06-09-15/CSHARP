@@ -1,0 +1,51 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  int i=10;
+    while (1<10){
+    Console.WriteLine ("Hello World");
+    Console.WriteLine("After i++ {0}",i);
+      i++;
+      Console.WriteLine("After i++ {0}",i);
+    }
+
+    }
+  }
+
+ 
+ using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int i=10; //initialization
+    while(i<20) // condition
+    {
+
+    Console.WriteLine("Hello World");
+      i+=2; //increment
+    }
+    //Console.WriteLine("Hello World");
+  }
+}
+
+
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int i=10; //initialization
+    do
+    {
+
+    Console.WriteLine("Hello World");
+      i+=2; //increment
+    }
+    //Console.WriteLine("Hello World");
+  }
+}
+
+
+
+      
+    
