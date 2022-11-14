@@ -1,0 +1,101 @@
+using System;
+
+ class Program {
+    public static void Main(string[] args) {
+    
+        Console.WriteLine("Where is the Eiffel Tower located?");
+        Console.WriteLine("1. Paris");
+        Console.WriteLine("2. Moscow");
+        Console.WriteLine("3. Rome");
+        Console.WriteLine("4. London");
+        Console.WriteLine("Choose the correct answer");
+
+        int opt = Convert.ToInt32(Console.ReadLine());
+
+        if (opt == 1)
+        {
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect");
+        }
+
+       
+        Console.WriteLine("What is the capital of California?");
+        Console.WriteLine("1. San Francisco");
+        Console.WriteLine("2. Los Angeles");
+        Console.WriteLine("3. Sacramento");
+        Console.WriteLine("4. San Diego");
+        Console.WriteLine("Choose the correct answer");
+
+        int opt1 = Convert.ToInt32(Console.ReadLine());
+
+        if (opt1 == 3)
+        {
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect");
+        }
+
+
+        Console.WriteLine("What is the capital of Greece?");
+        Console.WriteLine("1. Dublin");
+        Console.WriteLine("2. Athens");
+        Console.WriteLine("3. Sarajevo");
+        Console.WriteLine("4. Prague");
+        Console.WriteLine("Choose the correct answer");
+
+        int opt2 = Convert.ToInt32(Console.ReadLine());
+
+        if (opt2 == 2)
+        {
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect");
+        }
+
+
+        Console.WriteLine("Where is the Great Wall located?");
+        Console.WriteLine("1. America");
+        Console.WriteLine("2. China");
+        Console.WriteLine("3. South Korea");
+        Console.WriteLine("4. Egypt");
+        Console.WriteLine("Choose the correct answer");
+
+        int opt3 = Convert.ToInt32(Console.ReadLine());
+
+        if (opt3 == 2)
+        {
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect");
+        }
+
+
+        Console.WriteLine("What is world's largest river by volume?");
+        Console.WriteLine("1. Congo");
+        Console.WriteLine("2. Nile");
+        Console.WriteLine("3. Yangtze");
+        Console.WriteLine("4. Amazon");
+        Console.WriteLine("Choose the correct answer");
+
+        int opt4 = Convert.ToInt32(Console.ReadLine());
+
+        if (opt4 == 4)
+        {
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            Console.WriteLine("Incorrect");
+        }
+
+    }
+}
