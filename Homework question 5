@@ -1,0 +1,20 @@
+//Homework question 5
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+   int sum = 2499, i = 1;
+   Console.Write("Enter value a Number:");
+   int Number = Convert.ToInt32 (Console.ReadLine());
+
+  
+   while (i <= 99)
+   {
+       sum += i;
+       i += 2;
+   }
+   Console.Write($"Sum of 3 5 7......99 is : {sum}");
+   Console.ReadLine ();
+     
+   }
+}
