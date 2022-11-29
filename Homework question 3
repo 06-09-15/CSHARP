@@ -1,0 +1,19 @@
+//Homework question 3
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+     int num = 1;
+     int i=0;
+     
+     do
+     {
+     num = num *2;
+     i+=2;
+     Console.WriteLine(num);
+     }
+     while (i<=19);
+     Console.WriteLine();
+     
+  }     
+}
