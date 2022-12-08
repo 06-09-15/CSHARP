@@ -4,8 +4,9 @@ class Program {
   public static void Main () {
   
   int num, sum = 0;
-  for (num = 1; num <= 50; num++)
+  for (num = 0; num <= 49;)
   {
+  num = num + 1;
   sum = sum + num;
   }
   Console.WriteLine("Sum = {0}", sum);
