@@ -21,12 +21,12 @@ using System;
 class Program {
   public static void Main () {
   
-  int i = 0;
+  int num = 0;
   int sum = 0;
-  while(i <= 50)
+  while(num <= 50)
   {
-    sum = i + sum;
-    i++;
+    sum = num + sum;
+    num ++;
   }
   Console.WriteLine("Sum = "+ sum);
   Console.ReadLine();
