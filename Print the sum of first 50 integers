@@ -1,3 +1,4 @@
+//For loop
 using System;
 
 class Program {
@@ -13,3 +14,22 @@ class Program {
   Console.ReadLine();
   }
 }
+
+//While loop
+using System;
+
+class Program {
+  public static void Main () {
+  
+  int i = 0;
+  int sum = 0;
+  while(i <= 50)
+  {
+    sum = i + sum;
+    i++;
+  }
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+    
