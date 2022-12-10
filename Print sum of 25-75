@@ -32,3 +32,22 @@ class Program {
   Console.ReadLine();
   }
 }
+
+//Do while loop
+using System;
+
+class Program {
+  public static void Main () {
+  
+  int num = 25;
+  int sum = 0;
+  do
+  {
+    sum = num + sum;
+    num = num + 1;
+  }
+  while(num <= 75);
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
