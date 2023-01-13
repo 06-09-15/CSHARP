@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HTML: Images</title>
+  
+</head>
+<body>
+  
+<h1>The perfect trip</h1>
+
+<h2>Niagara Falls</h2>  
+
+<p>Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries. It is also known as the Canadian Falls. The smaller American Falls and Bridal Veil Falls lie within the United States. Bridal Veil Falls is separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York.</p>
+
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=oymVxF70&id=778736D1D799F3D4C350D74CE139BF54506626BC&thid=OIP.oymVxF70Ggg6jT8dJh_ItgHaE8&mediaurl=https%3A%2F%2Fwww.isx.ca%2Fuploads%2Ftrip%2F81531720486.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.a32995c45ef41a083a8d3f1d261fc8b6%3Frik%3DvCZmUFS%252fOeFM1w%26pid%3DImgRaw%26r%3D0&exph=3267&expw=4900&q=Niagara+Falls&simid=608044671034414915&form=IRPRST&ck=8456F78F878F29D6B997E66F4DFC1855&selectedindex=1&ajaxhist=0&ajaxserp=0&vt=0&sim=11" alt="Niagara Falls" width="200" height="150">
+
+<h3>Animals in Niagara Falls</h3>
+<p>Nineteen species of gulls <br>
+Warblers <br>
+Canvasbacks <br>
+Green herons <br>
+Red squirrels <br>
+Fox squirrels <br> </p>
+
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=Rdpa9j7Z&id=FDE1C9B828C20BC549B3ABFE61AA7370217A340F&thid=OIP.Rdpa9j7ZsCoHKmOCIP6SfQHaFB&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.45da5af63ed9b02a072a638220fe927d%3frik%3dDzR6IXBzqmH%252bqw%26riu%3dhttp%253a%252f%252f1.bp.blogspot.com%252f-pEP5EmRy7s4%252fVEb8r9jRhII%252fAAAAAAAAI9o%252fDp7E8gc0-FU%252fs1600%252fducks%25252Bon%25252Bfalls%25252B2.JPG%26ehk%3dcv8LBxP2prWol7iLADpy8i27nb7lnxw5gniTjf0r%252bOY%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=815&expw=1200&q=animals+in+Niagara+falls&simid=608034822662341734&FORM=IRPRST&ck=32C776A128012FAF7C490F28C39EC575&selectedIndex=17&ajaxhist=0&ajaxserp=0" alt="Animals in Niagara Falls" width="200" height="150">
+
+<h3>Food in Niagara Falls</h3>  
+<p>Boston lobster <br>
+Roast steak <br> </p>
+
+<img src="https://www.bing.com/images/search?view=detailv2&iss=sbi&FORM=recidp&sbisrc=ImgDropper&q=roast+steak+with+boston+lobster&imgurl=https://bing.com/thid=OSK.2d6d0faebe5309edbcc3c9f17cd342ab&w=732&h=585&rs=2&qlt=80&o=6&cdv=1&pid=16.1&idpbck=1&sim=4&pageurl=https%3a%2f%2fwww.wholesomeyum.com%2fthe-best-broiled-lobster-tail-recipe%2f&idpp=recipe&ajaxhist=0&ajaxserp=0" alt="Food in Niagara Falls" width="200" height="150">
+
+</body>
+</html>
+<script src="script.js"></script>
+
+ 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
