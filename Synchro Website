@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>All about synchronized swimming</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+<h1>All about synchronized swimming</h1>
+
+<h2>Basic info</h2>  
+
+<p>Synchronized swimming also called artistic swimming is a sport where swimmers perform a synchronized choreographed routine, accompanied by music. The sport is governed internationally by FINA (the Fédération internationale de natation or International Swimming Federation). It is traditionally a women's sport, although FINA introduced a new mixed gender duet competition that included one male swimmer in each duet at the 2015 World Aquatics Championships and LEN introduced men's individual events at the 2022 European Aquatics Championships.</p>
+
+<h3>Sculls name</h3>
+<p>Support Scull <br>
+Head First Scull <br>
+Foot First Scull <br>
+Twirl Scull <br>
+Propeller Scull <br>
+Reverse Propeller Scull <br>
+Spin Scull <br>
+Split Scull <br>
+</p>
+</body>
+</html>
+
+
+
+
+
+
+  
+  <script src="script.js"></script>
+
+ 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
