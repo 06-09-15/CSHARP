@@ -1,0 +1,384 @@
+//1.Add all the elements of an array
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int[] num = new int[8];
+    int sum = 0;
+    Console.WriteLine("Enter the array elements");
+    for (int i=0; i<4; i++)
+    {
+    num[i] = Convert.ToInt32(Console.ReadLine());
+    sum += num[i];  // sum = sum + num[i];
+    }
+    Console.WriteLine("Array elements are");
+    for (int i=0; i<4; i++)
+    {
+
+    Console.WriteLine(num[i]);
+      
+    }
+    Console.WriteLine("Sum is {0}",sum);
+    
+  }
+}
+
+//2.Rock, paper, scissors game
+using System;
+
+ class Program {
+    public static void Main(string[] args) {
+      String user1,user2;
+
+      Console.WriteLine ("Choose from ROCK, PAPER and SCISSORS for user 1");
+      user1=Console.ReadLine();
+      Console.WriteLine ("Choose from ROCK, PAPER and SCISSORS for user 2");
+      user2=Console.ReadLine();
+
+      if(user1=="rock")
+      {
+      if(user2=="paper")
+      {
+      Console.WriteLine("user 2 wins");
+      }
+      if(user2=="rock")
+      {
+      Console.WriteLine("tie");
+      }
+      }
+      else if(user1=="paper")
+      {
+      if(user2=="scissors")
+      {
+      Console.WriteLine("user 2 wins");
+      }
+      if(user2=="paper")
+      {
+      Console.WriteLine("tie");
+      }
+      }
+      else if(user1=="scissors")
+      {
+      if(user2=="rock")
+      {
+      Console.WriteLine("user 2 wins");
+      }
+      if(user2=="scissors")
+      {
+      Console.WriteLine("tie");
+      }
+      }
+
+      {
+
+      }
+    }
+ }
+
+//3.Print the sum of first 50 integers
+//For loop
+using System;
+class Program {
+  public static void Main () {
+  
+  int num, sum = 0;
+  for (num = 0; num <= 49;)
+  {
+  num = num + 1;
+  sum = sum + num;
+  }
+  Console.WriteLine("Sum = {0}", sum);
+  Console.ReadLine();
+  }
+}
+//While loop
+using System;
+class Program {
+  public static void Main () {
+  
+  int num = 0;
+  int sum = 0;
+  while(num <= 50)
+  {
+    sum = num + sum;
+    num = num + 1;
+  }
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//Do while loop
+using System;
+
+class Program {
+  public static void Main () {
+
+  int num = 0;
+  int sum = 0;
+  do
+  {
+    sum = num + sum;
+    num = num + 1;
+  }
+  while(num <= 50);
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//4.Print sum of 1-50 odd numbers
+//For loop
+using System;
+class Program {
+  public static void Main () {
+  
+  int num, sum = 0;
+  for (num = -1; num <= 47;)
+  {
+  num = num + 2;
+  sum = sum + num;
+  }
+  Console.WriteLine("Sum = {0}", sum);
+  Console.ReadLine();
+  }
+}
+//While loop
+using System;
+class Program {
+  public static void Main () {
+  
+  int num = -1;
+  int sum = 1;
+  while(num <= 50)
+  {
+    sum = num + sum;
+    num = num + 2;
+  }
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//Do while loop
+using System;
+
+class Program {
+  public static void Main () {
+
+  int num = -1;
+  int sum = 1;
+  do
+  {
+    sum = num + sum;
+    num = num + 2;
+  }
+  while(num <= 50);
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//5.Print sum of 25-75
+//For loop
+using System;
+
+class Program {
+  public static void Main () {
+  
+  int num, sum = 0;
+  for (num = 24; num <= 74;)
+  {
+  num = num + 1;
+  sum = sum + num;
+  }
+  Console.WriteLine("Sum = {0}", sum);
+  Console.ReadLine();
+  }
+}
+
+//While loop
+using System;
+
+class Program {
+  public static void Main () {
+  
+  int num = 25;
+  int sum = 0;
+  while(num <= 75)
+  {
+    sum = num + sum;
+    num = num + 1;
+  }
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//Do while loop
+using System;
+
+class Program {
+  public static void Main () {
+  
+  int num = 25;
+  int sum = 0;
+  do
+  {
+    sum = num + sum;
+    num = num + 1;
+  }
+  while(num <= 75);
+  Console.WriteLine("Sum = "+ sum);
+  Console.ReadLine();
+  }
+}
+
+//6.Input 100 random numbers and count the odd and even numbers using for statement
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+      Console.WriteLine ("Odd numbers from 1 to 100");
+      for (int i =1; i <= 100; i++)
+      {
+          if (i % 2 !=0)
+          {
+          Console.WriteLine(i);
+          }
+      }
+
+      Console.WriteLine ("Even numbers from 1 to 100");
+      for (int i =1; i <= 100; i++)
+      {
+          if (i % 2 ==0)
+          {
+          Console.WriteLine(i);
+          }
+      }
+      
+      Console.ReadKey();
+        }
+    }
+
+//7.Input 100 random integer numbers (positive and negative) and sum the positive and negative numbers using while statement.
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+     //int i;
+ int n = 3;
+ for (int i = 1; i <= n; i++)  // outer loop
+ {
+ for (int j = 1; j <= 50; j++)  // inner loop
+ {
+
+ Console.Write( (i * j)+"\t");
+ }
+ Console.WriteLine();
+ }
+
+    }
+ }
+
+//8.Output this series using do while statement:1 2 4 8 16 ...... 1024
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+     int num = 1;
+     int i=0;
+     
+     do
+     {
+     num = num * 2;
+     i+=2;
+     Console.WriteLine(num);
+     }
+     while (i<=19);
+     Console.WriteLine();
+     
+  }     
+}
+
+//9.Number pattern
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+   //int i;
+ int n = 5;
+ for (int i = 1; i <= n; i++)  // outer loop
+ {
+ for (int j = 1; j <= i; j++)  // inner loop
+ {
+
+ Console.Write (j + "");
+ }
+ Console.WriteLine();
+ }
+   }
+ }
+
+//10.Series sum 3 5 7 ...... 99
+using System;
+
+class Program {
+   public static void Main(string[] args) {
+   int sum = 2499, i = 1;
+   Console.Write("Enter value a Number:");
+   int Number = Convert.ToInt32 (Console.ReadLine());
+
+  
+   while (i <= 99)
+   {
+       sum += i;
+       i += 2;
+   }
+   Console.Write($"Sum of 3 5 7......99 is : {sum}");
+   Console.ReadLine ();
+     
+   }
+}
+
+//11.* pattern
+using System;
+
+ class Program {
+   public static void Main(string[] args) {
+   //int i;
+ int n = 5;
+ for (int i = 1; i <= n; i++)  // outer loop
+ {
+ for (int j = 1; j <= 6-i; j++)  // inner loop
+ {
+
+ Console.Write ("*");
+ }
+ Console.WriteLine();
+ }
+   }
+ }
+
+//12.Series calculate
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.Write("Enter the value of x:");
+    int x = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Enter the value of n:");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    int i = 1;
+    double sum = 0;
+    while (i<=n) 
+    {
+    sum += (1/Math.Pow(x,i+1));
+    i++;
+    }
+    Console.WriteLine("sum:" + sum);
+
+ }
+}
