@@ -1,20 +1,19 @@
-//Homework question 5
+//Sum 3 5 7 ...... 99
 using System;
 
 class Program {
-   public static void Main(string[] args) {
-   int sum = 2499, i = 1;
-   Console.Write("Enter value a Number:");
-   int Number = Convert.ToInt32 (Console.ReadLine());
-
+  public static void Main () {
   
-   while (i <= 99)
-   {
-       sum += i;
-       i += 2;
-   }
-   Console.Write($"Sum of 3 5 7......99 is : {sum}");
-   Console.ReadLine ();
-     
-   }
+  int num, sum = 0;
+  num = 1;
+  while (num <= 97)
+  {
+  num = num + 2;
+  sum = sum + num;
+  }
+  Console.WriteLine("Sum = {0}", sum);
+  
+  Console.ReadLine();
+    
+  }
 }
